@@ -46,7 +46,7 @@ locals {
 
   cluster_machine_type = lookup(local.cfg, "cluster_machine_type", "")
 
-  cluster_preemptible = lookup(local.cfg, "cluster_preemptible", false)
+  cluster_preemptible = lookup(local.cfg, "cluster_preemptible", true)
 
   cluster_auto_repair = lookup(local.cfg, "cluster_auto_repair", true)
 

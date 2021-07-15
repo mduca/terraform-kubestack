@@ -82,7 +82,7 @@ variable "machine_type" {
 variable "preemptible" {
   description = "Whether to use preemptible nodes for this node pool."
   type        = string
-  default     = false
+  default     = true 
 }
 
 variable "auto_repair" {
